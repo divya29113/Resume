@@ -3,22 +3,19 @@
     <head>
         <meta name charset="UTF-8">
         <title>Divya Portfolio</title>
-        <style>
-            img{
-                border-radius: 50%;
-            }
-
-        </style>
+        <link href="style.css" rel="stylesheet">
+        <link rel="icon" href ="1721140178931.jpg">
+        <link href="style.css" rel="stylesheet">
 
     </head>
     <body>
-        <header>
-        <h1 align="center">RESUME</h1>
-        <h3 align="center">PROFILE</h3>
-        <p align="center">
+        <header class="text">
+        <h1>RESUME</h1>
+        <h3>PROFILE</h3>
+        <p >
         <img src=".//1721140178931.jpg" alt="profile" width="150" height="150">
         </p>
-        <nav align="center">
+        <nav>
             <a href="#aboutme">About Me</a>
             <a href="#educationqualification">Education Qualifications</a>
             <a href="#projects">Projects</a>
@@ -30,13 +27,14 @@
         </header>
         <main>
         <h3 id="aboutme">ABOUT ME</h3>
-        <p align="justiy" > I am a motivated and enthusiastic graduate looking to start my career in the Tech/IT industry. As a fresher, I am eager to
+        <p class="about"> I am a motivated and enthusiastic graduate looking to start my career in the Tech/IT industry. As a fresher, I am eager to
             learn and grow in a professional environment. I have a strong interest in troubleshooting, technical support, and
             understanding IT systems. With a basic understanding of tools like Jira and a willingness to adapt quickly, I am
             committed to contributing positively to the team and delivering excellent support to clients
         </p>
+        
     <h3 id="educationqualification">EDUCATION QUALIFICATIONS</h3>        
-    <table border="4">
+    <table cellpadding="12" cellspacimg="4">
         <thead>
             <tr>
                 <th colspan="4">Academic Credentials</th>
@@ -45,9 +43,10 @@
                 <th>Qualifications</th>
                 <th>Institutions</th>
                 <th>Year</th>
-                <th>Percentage</th>
+                <th>Percentage</th> 
             </tr>
         </thead>
+        <tbody>
         <tr>
             <td>BCA</td>
             <td>Alagappa University</td>
@@ -66,15 +65,17 @@
             <td>2019</td>
             <td>80%</td>
         </tr>
+        </tbody>
     </table>
+    <p>
 
     <h3 id="projects">PROJECTS</h3>
     <h5>STUDENT MANAGEMENT SYSTEM - MAY 2024</h5>
-    <p align="justify">A Student Management System is a Python-based application that allows users (admins) to add, view,
+    <p>A Student Management System is a Python-based application that allows users (admins) to add, view,
      update, and delete student records from an SQL database. The system provides basic CRUD (Create,
      Read, Update, Delete) functionality, with a user-friendly command-line interface. The project integrates
      Python for backend logic and SQL for managing student data storage</p> 
-
+     </p>
      <h3 id="skills">SKILLS</h3>
      <ul>
      <li>HTML</li>
@@ -105,7 +106,7 @@
      <fieldset>
         <legend><b>Hire Me</b></legend>
         <p>
-        <label for="name">Full Name</label>
+        <label for="name">Full Name  </label>
         <input type="text" id="name" name="name">
         </p>
         <p>

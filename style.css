@@ -1,40 +1,101 @@
+/**{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}*/
+
 body{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    
-    background-color: white;
-    color: black;
+ 
+    font-size: 1.5rem;
+    background-color:black;
+    color: white;
     
 }
+.name{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+h1,h3,h5{
+    font-size: 2rem;
+    
+}
+
+  
+/*.text{
+    padding: 20px;
+}
+
+.pro{
+    padding: 30px;
+}*/
 
 img{
     border-radius: 50%;
 }
 
-.text{
+/*.text{
     text-align: center;
-} 
+} */
+
+
+.flex{
+    display:flex;
+    justify-content: center;
+
+}
+#education{
+    text-align: center;
+}
 
 .about{
-    text-align: justify;
+
+    text-align:center;
 }
+
 table,thead,tbody,th,td{
-    border:4px solid black;
+    border:4px solid white;
     border-collapse: collapse;
     text-align: center;
     
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+#contact{
+    text-align: center;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
 }
 fieldset{
     border-radius: 15px;
     width:400px;
 }
-a{
+.sticky{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    
+}
+.sticky a{
+    text-align: center;
     text-decoration: none;
     padding: 15px;
-    font-size: 20px;
+    font-size: 25px;
+    color: blue;
+    background: lightblue;
+    
 }
 
 a:hover{
-    font-size: 22px;
-    border: 1px solid black;
+    font-size: 30px;
+}  
+
+.skill::before{
+    content: " * ";
 }

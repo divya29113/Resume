@@ -10,22 +10,28 @@
     </head>
     <body>
         <header class="text">
-        <h1>RESUME</h1>
-        <h3>PROFILE</h3>
-        <p >
-        <img src=".//1721140178931.jpg" alt="profile" width="150" height="150">
-        </p>
+        <!--<h1>RESUME</h1>
+        <h3 class="pro">PROFILE</h3>-->
+
+        <div class="sticky">
         <nav>
             <a href="#aboutme">About Me</a>
-            <a href="#educationqualification">Education Qualifications</a>
+            <a href="#education">Education Qualifications</a>
             <a href="#projects">Projects</a>
             <a href="#skills">Skills</a>
             <a href="#certification">Certification</a>
             <a href="#language">Language</a>
             <a href="#contact">Contact</a>
         </nav>
+        </div>
+        <h1 class="name">DIVYA</h1>
+        <p  class="flex">
+        <img src=".//1721140178931.jpg" alt="profile" width="150" height="150">
+        </p>
+        
         </header>
-        <main>
+        <main> 
+        
         <h3 id="aboutme">ABOUT ME</h3>
         <p class="about"> I am a motivated and enthusiastic graduate looking to start my career in the Tech/IT industry. As a fresher, I am eager to
             learn and grow in a professional environment. I have a strong interest in troubleshooting, technical support, and
@@ -33,7 +39,9 @@
             committed to contributing positively to the team and delivering excellent support to clients
         </p>
         
-    <h3 id="educationqualification">EDUCATION QUALIFICATIONS</h3>        
+        
+    <h3 id="education">EDUCATION QUALIFICATIONS</h3>  
+    <div class="container">      
     <table cellpadding="12" cellspacimg="4">
         <thead>
             <tr>
@@ -67,22 +75,24 @@
         </tr>
         </tbody>
     </table>
+    </div>
     <p>
-
-    <h3 id="projects">PROJECTS</h3>
-    <h5>STUDENT MANAGEMENT SYSTEM - MAY 2024</h5>
-    <p>A Student Management System is a Python-based application that allows users (admins) to add, view,
-     update, and delete student records from an SQL database. The system provides basic CRUD (Create,
-     Read, Update, Delete) functionality, with a user-friendly command-line interface. The project integrates
-     Python for backend logic and SQL for managing student data storage</p> 
-     </p>
+    <div class="outerdiv">
+         
+          <h3 id="projects">PROJECTS</h3>
+          <h5>STUDENT MANAGEMENT SYSTEM - MAY 2024</h5>
+          <p>A Student Management System is a Python-based application that allows users (admins) to add, view,
+          update, and delete student records from an SQL database. The system provides basic CRUD (Create,
+          Read, Update, Delete) functionality, with a user-friendly command-line interface. The project integrates
+          Python for backend logic and SQL for managing student data storage</p> 
+    </div>      
      <h3 id="skills">SKILLS</h3>
-     <ul>
-     <li>HTML</li>
-     <li>CSS</li>
-     <li>Python</li>
-     <li>MYSQL</li>
-     </ul> 
+     
+     <p class="skill">HTML</p>
+     <p class="skill">CSS</p>
+     <p class="skill">Python</p>
+     <p class="skill">MYSQL</p>
+      
 
      <h3 id="certification">CERTIFICATION</h3>
      <h5>BASIC PYTHON COURSE</h5>
@@ -100,8 +110,9 @@
      </ul>
      </main>
      <footer>
-
+     
      <h3 id="contact">CONTACT DETAILS</h3>
+     <div class="contact-container">
      <form>
      <fieldset>
         <legend><b>Hire Me</b></legend>
@@ -128,9 +139,9 @@
         </p>
 
         <input type="submit" value="send request">
-        
      </fieldset>
      </form>
+     </div>
     </footer>
 
 

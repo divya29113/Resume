@@ -6,10 +6,10 @@
 
 body{
     font-family: 'Times New Roman', Times, serif;
- 
     font-size: 1.5rem;
+    
     background-color:black;
-    color: white;
+    color:white;
     
 }
 .name{
@@ -47,6 +47,9 @@ img{
 
 }
 #education{
+    text-align: center;
+}
+#aboutme{
     text-align: center;
 }
 
